@@ -6,6 +6,6 @@ import 'development_team/QAEngineer.dart';
 import 'development_team/TeamLead.dart';
 
 void main(){
-  Task task = Developer(TeamLead(Project()));
-  print(task.doSomething('2+2+2+2'));
+  Task task = Designer(Developer(TeamLead(Project())));
+  print(task.doSomething('2+2  +2'));
 }
